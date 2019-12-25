@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 8160878091578628333}
   - component: {fileID: 8140438212392221159}
   m_Layer: 0
-  m_Name: Tank Red
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
