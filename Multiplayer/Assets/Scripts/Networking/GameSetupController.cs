@@ -4,14 +4,13 @@ using System.IO;
 
 public class GameSetupController : MonoBehaviour 
 {
-    private void Start()
-    {
-        CreatePlayer();
-    }
+    public static GameSetupController instance;
 
-    private void CreatePlayer()
+    public Transform[] spawnPoints;
+
+    private void Awake()
     {
-        Debug.Log("Create Player");
-        PhotonNetwork.Instantiate(Path.Combine("Prefabs", "Player"), Vector3.zero, Quaternion.identity);
+        if (instance == null)
+            instance = this;
     }
 }

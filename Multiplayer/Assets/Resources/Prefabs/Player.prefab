@@ -94,8 +94,8 @@ GameObject:
   - component: {fileID: 686579267}
   - component: {fileID: 1261903185055974941}
   - component: {fileID: 3231240693200383229}
-  - component: {fileID: 8160878091578628333}
-  - component: {fileID: 8140438212392221159}
+  - component: {fileID: -4228126371414820146}
+  - component: {fileID: 1851003635044248075}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -190,7 +190,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8160878091578628333
+--- !u!114 &-4228126371414820146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,11 +208,11 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 8140438212392221159}
+  - {fileID: 1851003635044248075}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &8140438212392221159
+--- !u!114 &1851003635044248075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
