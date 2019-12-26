@@ -11,9 +11,9 @@ public class PhotonPlayer : MonoBehaviour
     private void Start()
     {
         view = GetComponent<PhotonView>();
-        int spawnPicker = Random.Range(0, GameSetupController.instance.spawnPoints.Length);
+        int spawnPicker = Random.Range(0, GameManager.instance.spawnPoints.Length);
 
-        Vector2 position = GameSetupController.instance.spawnPoints[spawnPicker].position;
+        Vector2 position = GameManager.instance.spawnPoints[spawnPicker].position;
 
         if (view.IsMine)
         {

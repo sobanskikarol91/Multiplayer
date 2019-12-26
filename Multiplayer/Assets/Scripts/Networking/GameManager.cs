@@ -1,13 +1,19 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.Linq;
+﻿using UnityEngine;
 using Photon.Pun;
 using System.IO;
 
 public class GameManager : MonoBehaviour 
 {
+    public static GameManager instance;
+
+    public Transform[] spawnPoints;
+
+    private void Awake()
+    {
+        if (instance == null)
+            instance = this;
+    }
+
     private void Start()
     {
         CreatePlayer();

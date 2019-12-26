@@ -130,7 +130,6 @@ GameObject:
   m_Component:
   - component: {fileID: 102824550}
   - component: {fileID: 102824551}
-  - component: {fileID: 102824549}
   m_Layer: 0
   m_Name: GameSetup
   m_TagString: Untagged
@@ -138,18 +137,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &102824549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102824548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8c9de0b17ef1f84cbf92b9a7b21d2ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &102824550
 Transform:
   m_ObjectHideFlags: 0
