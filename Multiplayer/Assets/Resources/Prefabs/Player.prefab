@@ -141,14 +141,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3031034062744059160}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.45492318, w: 0.8905307}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7316839149608003377}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -54.12}
 --- !u!61 &1261903185055974941
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -270,8 +270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8566a73577a8f24885e5a72f82fb3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 7647008997029453872, guid: d3bf031d0c9ac7f4190c3920b602c700,
-    type: 3}
   spawnPoint: {fileID: 3939781397228806092}
   view: {fileID: 0}
 --- !u!1 &3031034063086220744

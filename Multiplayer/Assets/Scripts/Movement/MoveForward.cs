@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.Linq;
+﻿using UnityEngine;
 
 public class MoveForward : MonoBehaviour
 {
@@ -15,6 +11,6 @@ public class MoveForward : MonoBehaviour
 
     private void Update()
     {
-        transform.position +=  transform.up * speed * Time.deltaTime;
+        transform.position +=  -transform.up * speed * Time.deltaTime;
     }
 }

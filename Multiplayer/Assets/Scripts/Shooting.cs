@@ -16,7 +16,7 @@ public class Shooting : MonoBehaviour
     {
         if (view.IsMine && Input.GetMouseButtonDown(0))
         {
-            PhotonNetwork.Instantiate(Path.Combine("Prefabs", "Rocket"), spawnPoint.position, Quaternion.identity);
+            PhotonNetwork.Instantiate(Path.Combine("Prefabs", "Rocket"), spawnPoint.position, spawnPoint.rotation);
         }
     }
 }
